@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003d79;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+header .search-bar input {
+    width: 100%;
+    padding: 5px;
+}
+
+nav {
+    width: 200px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ccc;
+    height: 100vh;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+
+.form-section .form-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section input, .form-section select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+.bar-top{
+    background-color: deepskyblue;
+}
